@@ -20,7 +20,7 @@ public class LoopMain {
 
         long startTime = System.currentTimeMillis();
 
-        while ((System.currentTimeMillis() - startTime) < 10 * 60 * 60 * 1000) {
+        while ((System.currentTimeMillis() - startTime) < 1 * 60 * 60 * 1000) {
 
             System.out.println("Playing Game: " + (nrGamesPlayed + 1));
 
